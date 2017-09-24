@@ -10,6 +10,7 @@ namespace StandardCalculator
     {
         private int i1;
         private int i2;
+        private string sym;
 
         public Calculate() { }
 
@@ -38,10 +39,32 @@ namespace StandardCalculator
             }
         }
 
-        public int Addition()
+        public string Symbol
         {
-            int total;
-            total = i1 + i2;
+            get
+            {
+                return sym;
+            }
+
+            set
+            {
+                sym = value;
+            }
+        }
+
+        public int math()
+        {
+            int total = 0;
+
+            if (sym == "+")
+                total = i1 + i2;
+            if (sym == "-")
+                total = i1 - i2;
+            if (sym == "X")
+                total = i1 * i2;
+            if (sym == "÷")
+                total = i1 / i2;
+
 
             return total;
         }

@@ -105,6 +105,7 @@
             this.divisionBtn.TabIndex = 7;
             this.divisionBtn.Text = "÷";
             this.divisionBtn.UseVisualStyleBackColor = true;
+            this.divisionBtn.Click += new System.EventHandler(this.divisionBtn_Click);
             // 
             // backSpaceBtn
             // 
@@ -125,6 +126,7 @@
             this.clrAllBtn.TabIndex = 5;
             this.clrAllBtn.Text = "C";
             this.clrAllBtn.UseVisualStyleBackColor = true;
+            this.clrAllBtn.Click += new System.EventHandler(this.clrAllBtn_Click);
             // 
             // clrEntryBtn
             // 
@@ -145,6 +147,7 @@
             this.multiplyBtn.TabIndex = 11;
             this.multiplyBtn.Text = "X";
             this.multiplyBtn.UseVisualStyleBackColor = true;
+            this.multiplyBtn.Click += new System.EventHandler(this.multiplyBtn_Click);
             // 
             // nineBtn
             // 
@@ -191,6 +194,7 @@
             this.subtractionBtn.TabIndex = 15;
             this.subtractionBtn.Text = "-";
             this.subtractionBtn.UseVisualStyleBackColor = true;
+            this.subtractionBtn.Click += new System.EventHandler(this.subtractionBtn_Click);
             // 
             // sixBtn
             // 
@@ -296,6 +300,7 @@
             this.decimalBtn.TabIndex = 22;
             this.decimalBtn.Text = ".";
             this.decimalBtn.UseVisualStyleBackColor = false;
+            this.decimalBtn.Click += new System.EventHandler(this.decimalBtn_Click);
             // 
             // zeroBtn
             // 
